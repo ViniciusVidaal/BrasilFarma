@@ -612,6 +612,18 @@ body.loaded #preloader .preloader-content {
   background: linear-gradient(135deg, #F58529 0%, #DD2A7B 45%, #8134AF 75%, #515BD4 100%);
 }
 
+.float-btn.ifood {
+  bottom: 168px;
+  background: #EA1D2C;
+  color: var(--white);
+}
+
+.float-btn.ifood svg {
+  width: 34px;
+  height: 34px;
+  fill: currentColor;
+}
+
 /* Mobile */
 @media (max-width: 900px) {
   .sobre-grid,
@@ -736,5 +748,9 @@ body.loaded #preloader .preloader-content {
 
   .float-btn.whatsapp {
     bottom: 18px;
+  }
+
+  .float-btn.ifood {
+    bottom: 146px;
   }
 }
