@@ -5,6 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Brasil Farma | Asa Norte</title>
   <meta name="description" content="Brasil Farma - medicamentos, perfumaria e dermocosméticos com o melhor preço da Asa Norte. Fale no WhatsApp." />
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16888277858"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'AW-16888277858');
+  </script>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet" />
@@ -233,5 +241,22 @@
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
   <script src="assets/js/script.js"></script>
+  <script>
+    // Google Ads conversion: clique em qualquer botão/link do WhatsApp.
+    (function() {
+      var whatsappLinks = document.querySelectorAll('a[href*="wa.me"]');
+      whatsappLinks.forEach(function(link) {
+        link.addEventListener('click', function() {
+          if (typeof gtag === 'function') {
+            gtag('event', 'conversion', {
+              'send_to': 'AW-16888277858/BpRfCK2KnPgbEOLW-vQ-',
+              'value': 0.0,
+              'currency': 'BRL'
+            });
+          }
+        });
+      });
+    })();
+  </script>
 </body>
 </html>
